@@ -1,5 +1,7 @@
 # YouTube Channel Scraper
 
+![YouTube Channel Scraper](https://raw.githubusercontent.com/smoldesk/apify-scrapers/main/assets/youtube-channel/banner.webp)
+
 Scrape YouTube channels: subscribers, exact total views, video count, join date, country, description and social links, plus the channel's latest videos, Shorts and live streams. No API key, no quota, no login. Runs on [Apify](https://apify.com/smoldesk/youtube-channel-scraper).
 
 ## What you get
