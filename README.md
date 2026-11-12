@@ -7,7 +7,8 @@ Scrape YouTube channels: subscribers, exact total views, video count, join date,
 ## What you get
 
 - **Channel profiles**: subscribers, exact total views, video count, join date, country, verified badge, description, keywords, About-page links (Instagram, TikTok, website, shop…), avatar, banner and RSS URL.
-- **Videos, Shorts and live streams** from each channel: title, exact views and likes, comment count, publish date, duration, description links, hashtags and chapters.
+- **Videos, Shorts and live streams** from each channel, newest, most popular or oldest first (`channelSortBy`): title, exact views and likes, comment count, publish date, duration, description links, hashtags, chapters and the most replayed moments.
+- **Channel stats on every video row**: total views, video count, join date and country, so a spreadsheet needs no lookup.
 - **Profiles only**: leave `channelTabs` empty to turn a list of handles into a creator table, fast and cheap.
 - **New videos only**: `publishedAfter` stops reading a channel once it reaches older uploads.
 
@@ -88,6 +89,9 @@ No. There is no daily quota and no Google Cloud project to set up.
 
 **How do I get every video of a channel?**
 Set `maxResults` to 0. Add `shorts` and `streams` to `channelTabs` for those tabs.
+
+**How do I get a channel's most popular videos?**
+Set `channelSortBy` to `popular`. `oldest` starts from the first upload.
 
 **Can I get only subscriber counts for a list of channels?**
 Yes. Leave `channelTabs` empty and you pay only for the profiles.
