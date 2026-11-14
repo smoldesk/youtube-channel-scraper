@@ -98,4 +98,4 @@ Yes. Leave `channelTabs` empty and you pay only for the profiles.
 
 ## More scrapers
 
-YouTube Channel is one of 20 no-login scrapers by Smoldesk Studios. For keyword search and comments see [YouTube Scraper](https://github.com/smoldesk/youtube-scraper) and [YouTube Comments Scraper](https://github.com/smoldesk/youtube-comments-scraper). Full list: [smoldesk/apify-scrapers](https://github.com/smoldesk/apify-scrapers).
+YouTube Channel is one of 21 no-login scrapers by Smoldesk Studios. For keyword search and comments see [YouTube Scraper](https://github.com/smoldesk/youtube-scraper) and [YouTube Comments Scraper](https://github.com/smoldesk/youtube-comments-scraper). Full list: [smoldesk/apify-scrapers](https://github.com/smoldesk/apify-scrapers).
